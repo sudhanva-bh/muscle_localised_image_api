@@ -1,0 +1,4 @@
+[functions]
+  directory = "functions/"
+  # This tells Netlify to include the 'sharp' library when deploying
+  included_files = ["node_modules/sharp/**"]
